@@ -116,7 +116,7 @@ h4 {
     }
 }
 
-}@media (max-width: 767px) {
+@media (max-width: 767px) {
     h1 {
         font-size: 3em;
         margin-left: 0;
@@ -148,24 +148,27 @@ h4 {
     article {
         padding: 10px;
         margin-top: 0px;
-        background-color: antiquewhite;
-        border: solid 1px black;
+        background-color: antiquewhite !important;
+        border: solid 1px black !important;
         overflow: scroll;
         max-height: 300px;
+        margin: 10px;
     }
 
     p {
         margin: 0;
     }
 
-    .navbar-toggler-icon {
+
+
+        .navbar-toggler-icon {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     .nav-link.dropdown-toggle::after {
-        display: none; /* Remove the default dropdown arrow */
+        display: none;
     }
 
     .dropdown-menu.show {
