@@ -109,6 +109,7 @@ h4 {
         background-color: antiquewhite;
         max-height: 300px;
         overflow: scroll;
+        margin-top: 10px;
     }
 
     .dropdown {
@@ -159,9 +160,7 @@ h4 {
         margin: 0;
     }
 
-
-
-        .navbar-toggler-icon {
+            .navbar-toggler-icon {
         display: flex;
         align-items: center;
         justify-content: center;
