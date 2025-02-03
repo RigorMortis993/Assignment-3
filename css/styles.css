@@ -28,6 +28,11 @@ h1 {
     color: white;
     margin-left: 2%;
 }
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} 
 h3 {
     font-size: 4em;
     color: black;
